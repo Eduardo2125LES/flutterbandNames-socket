@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
      child: ListTile(
         leading: CircleAvatar(
           child: Text(band.name.substring(0,2), style: TextStyle(fontWeight:FontWeight.bold ),),
-          backgroundColor: Colors.lightBlueAccent,
+          backgroundColor: Colors.blue,
         ),
        title: Text(band.name),
        trailing: Text("${band.votes}", style: TextStyle(fontSize: 15),),
